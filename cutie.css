@@ -9,7 +9,7 @@ body {
     display: flex;
     place-items: center;
     justify-content: center;
-    background: balck;
+    background: black;
 }
 h1 {
     text-align: center;
