@@ -9,6 +9,18 @@ body {
     display: flex;
     place-items: center;
     justify-content: center;
+
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    margin-top: -400px;
+    color: white;
+
     background: black;
 }
 h1 {
@@ -51,6 +63,8 @@ h1 {
     border-radius: 60px;
     box-shadow: -10px 10px 120px red;
 }
-
+video{
+    position: fixed;
+}
 
 

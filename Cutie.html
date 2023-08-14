@@ -11,23 +11,30 @@
 </head>
 <body>
   <h1 style="position: fixed;">Tap On Heart</h1>
-    <div class="heart" onclick="playAudio()">
+    <div  class="heart" id="gta" onclick="playAudio()">
     </div>
+    <video loop hidden="hidden" height="1080" width="720"   id="myAudio">
+      <source src="Cutie.mp4" type="video/mp4">
 
     <audio loop autoplay id="myAudio">
       <source src="music.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
-    </audio>
+    </video>
     <script>
-        var x = document.getElementById("myAudio"); 
-    
+        var x = document.getElementById("myAudio");    
+        var y = document.getElementById("gta")     
         function playAudio() { 
           x.play(); 
+         y.style.display="none";
+         x.style.display="block";
         } 
     
         function pauseAudio() { 
          x.pause(); 
         }
+    
     </script> 
+    
+
 </body>
 </html>
