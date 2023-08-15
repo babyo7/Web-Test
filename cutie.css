@@ -11,7 +11,7 @@ body {
     place-items: center;
     justify-content: center;
 
-    background-color: black;
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,14 +20,8 @@ body {
 h1 {
     text-align: center;
     margin-top: -400px;
-    color: white;
+    color: black;
 
-    background: black;
-}
-h1 {
-    text-align: center;
-    margin-top: -400px;
-    Color: white;
 }
 .heart {
     width: 100px;
