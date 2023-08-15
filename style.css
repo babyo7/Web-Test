@@ -2,75 +2,45 @@
 *{
     font-family: 'Poppins', sans serif;
 }
-body {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    place-items: center;
-    justify-content: center;
-
-    background-color: white;
+h1 {
+    text-align: center;
+}
+body{
+    position: relative;
+    align-items: center;
+    align-content: center;
+ 
+    margin-top: 300px;
+    text-align: center;
+    background-image: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-h1 {
-    text-align: center;
-    margin-top: -400px;
+a {
+    text-decoration: none;
     color: black;
+    font-weight: normal;
+}    
+button {
+    font-weight: normal;
+    color: black;
+    background-color: white;
+    font-size: medium;
+    border: 1px solid black;
+    text-decoration: none;
 
-}
-.heart {
-    width: 100px;
-    height: 100px;
-    background: red;
-    transform: rotate(-45deg);
-    box-shadow: -10px 10px 120px red;
-    animation: heart 0.6s linear infinite;
- 
- 
-  
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
     
-      
 }
-@keyframes heart {
-    0% {
-        transform: rotate(-45deg) scale(1.07);
-    }
+button:hover{
+    background-color: black;
+    color: white;
 
-}
-.heart::before {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: red;
-    top: -50%;
-    border-radius: 60px;
-    box-shadow: -10px 10px 120px red;
-}
-.heart::after {
-    content: "";
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    background: red;
-    right: -50%;
-    border-radius: 60px;
-    box-shadow: -10px 10px 120px red;
-}
-video{
-    position: fixed;
-}
-
-
-img{
-   margin-left: -900px;
-   position: fixed;
-   width: 800px;
-   height: 100%;
-   margin-left: 10px;
+    border-color: transparent;
 }
