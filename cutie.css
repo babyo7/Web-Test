@@ -76,6 +76,6 @@ img{
    margin-left: -100px;
    position: fixed;
    width: 800px;
-   height: 650px;
+   height: 100%;
    margin-left: 10px;
 }
