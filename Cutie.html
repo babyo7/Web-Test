@@ -8,21 +8,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heart animation</title>
     <link rel="stylesheet" type="text/css" href="cutie.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 </head>
-<body>
-  <h1 style="position: fixed;">Tap On Heart</h1>
-    <div  class="heart" id="gta" onclick="playAudio()">
+<body id="bad">
+  <h1 id="hed" style="position: fixed;" >Tap On Heart</h1>
+    <div class="heart" id="gta" onclick="playAudio()">
     </div>
-    <video loop hidden="hidden" height="1080" width="720"   id="myAudio">
-      <source src="Cutie.mp4" type="video/mp4">
-    </video>
+    <img id="gef" style="display: none;" id="gef"  src="g.gif"  />
+    <audio loop id="myAudio">
+      <source src="Music.mp3" type="audio/mp3">
+    </audio>
     <script>
         var x = document.getElementById("myAudio");    
         var y = document.getElementById("gta")     
+        var z = document.getElementById("gef")    
+        var h = document.getElementById("hed")  
+        var b = document.getElementById("bad")      
         function playAudio() { 
           x.play(); 
-         y.style.display="none";
+         y.style.visibility="hidden";
          x.style.display="block";
+         h.style.visibility="hidden";
+         z.style.display="block";
+         b.style.backgroundColor="black";
+         
         } 
     
         function pauseAudio() { 
@@ -30,6 +42,7 @@
         }
     
     </script> 
+    
     
 
 </body>
