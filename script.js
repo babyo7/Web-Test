@@ -280,3 +280,5 @@ function draw(){
 
 draw();
 
+
+// Your new JavaScript code
