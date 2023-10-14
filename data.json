@@ -1,9 +1,10 @@
-[...
+[
 {
         "title": "Murder In My Mind",
         "artist": "Kordhell"
-      }
-, newEntry]{
+},
+      {
         "title": "Murder",
         "artist": "Kordhell"
       }
+]
