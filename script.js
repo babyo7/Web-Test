@@ -283,3 +283,4 @@ draw();
 
 // Your new JavaScript code
 // hi
+ let music=[{music:"baby",name:"aman"},{music:"baby",name:"aman"}]
